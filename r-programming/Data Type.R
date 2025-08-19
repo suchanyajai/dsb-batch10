@@ -27,3 +27,27 @@ class(animals)
 ## 5. date/time
 time_now <- Sys.time()
 class(time_now)
+
+
+money_in_my_pocket <- 150
+# ชื่อตัวแปร
+# หามขึ้นต้นด้วยตัวเลข
+# ห้ามใช้จุด
+# ภาษาอังกฤษพิมพ์เล็ก 
+my_age <- 28
+my_name <- "Ploy"
+movie_lover <- TRUE #False
+today_date <- as.Date("2024-07-02")
+
+
+## check data type
+class(income)
+class(my_age)
+class(my_name)
+class(movie_lover)
+class (today_date)
+
+##change data Type 
+as.numeric("100")
+
+
